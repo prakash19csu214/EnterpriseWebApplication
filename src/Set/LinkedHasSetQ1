@@ -2,7 +2,7 @@ package Set;
 
 import java.util.LinkedHashSet;
 
-public class Q1 {
+public class LinkedHasSetQ1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
