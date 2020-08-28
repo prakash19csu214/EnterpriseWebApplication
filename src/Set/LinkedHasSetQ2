@@ -1,0 +1,25 @@
+package Set;
+
+import java.util.LinkedHashSet;
+
+public class LinkedHasSetQ2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LinkedHashSet<String> link = new LinkedHashSet<String>();
+        //add elements to LinkedHashSet
+        link.add("merecedes");
+        link.add("bugati veyron");
+        link.add("ferrari");
+        System.out.println("LinkedHashSet content: ");
+        System.out.println(link);
+        String[] Arr = new String[link.size()];
+        link.toArray(Arr);
+        System.out.println("Copied content : ");
+        for(String array:Arr){
+            System.out.println(array);
+        }
+
+	}
+
+}
